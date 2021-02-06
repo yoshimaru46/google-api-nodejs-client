@@ -105,7 +105,7 @@ runSample().catch(console.error);
 ```
 
 ### Samples
-There are a lot of [samples](https://github.com/googleapis/google-api-nodejs-client/tree/master/samples) 🤗  If you're trying to figure out how to use an API ... look there first! If there's a sample you need missing, feel free to file an [issue][bugs].
+There are a lot of [samples](https://github.com/googleapis/google-api-nodejs-client/tree/master/samples) 🤗.  If you're trying to figure out how to use an API ... look there first! If there's a sample you need missing, feel free to file an [issue][bugs].
 
 ### API Reference
 This library has a full set of [API Reference Documentation](https://googleapis.dev/nodejs/googleapis/latest). This documentation is auto-generated, and the location may change.
@@ -284,7 +284,7 @@ Save the service account credential file somewhere safe, and *do not check this 
 You can start process with an environment variable named `GOOGLE_APPLICATION_CREDENTIALS`. The value of this env var should be the full path to the service account credential file:
 
 ```
-$ GOOGLE_APPLICATION_CREDENTIALS=./your-secret-key.json node server.js
+$ GOOGLE_APPLICATION_CREDENTIALS=./your-secret-key.json
 ```
 
 #### Using the `keyFile` property
