@@ -4,7 +4,8 @@
     "rootDir": ".",
     "outDir": "build",
     "incremental": true,
-    "declarationMap": true
+    "declarationMap": true,
+    "sourceMap": false,
   },
   "include": [
     "src/*.ts",
