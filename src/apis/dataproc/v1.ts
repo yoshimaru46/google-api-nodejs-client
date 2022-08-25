@@ -690,6 +690,10 @@ export namespace dataproc_v1 {
    */
   export interface Schema$ExecutionConfig {
     /**
+     * Optional. The duration to keep the underlying cluster alive while idling Passing this threshold will cause the cluster to be terminated. Minimum value is 30 minutes; maximum value is 14 days (see JSON representation of Duration (https://developers.google.com/protocol-buffers/docs/proto3#json)).
+     */
+    idleTtl?: string | null;
+    /**
      * Optional. The Cloud KMS key to use for encryption.
      */
     kmsKey?: string | null;
