@@ -511,7 +511,7 @@ export namespace spanner_v1 {
      */
     encryptionConfig?: Schema$EncryptionConfig;
     /**
-     * Output only. For databases that are using customer managed encryption, this field contains the encryption information for the database, such as encryption state and the Cloud KMS key versions that are in use. For databases that are using Google default or other types of encryption, this field is empty. This field is propagated lazily from the backend. There might be a delay from when a key version is being used and when it appears in this field.
+     * Output only. For databases that are using customer managed encryption, this field contains the encryption information for the database, such as all Cloud KMS key versions that are in use. The `encryption_status' field inside of each `EncryptionInfo` is not populated. For databases that are using Google default or other types of encryption, this field is empty. This field is propagated lazily from the backend. There might be a delay from when a key version is being used and when it appears in this field.
      */
     encryptionInfo?: Schema$EncryptionInfo[];
     /**
@@ -536,7 +536,7 @@ export namespace spanner_v1 {
    */
   export interface Schema$DatabaseRole {
     /**
-     * Required. The name of the database role. Values are of the form `projects//instances//databases//databaseRoles/ {role\}`, where `` is as specified in the `CREATE ROLE` DDL statement. This name can be passed to Get/Set IAMPolicy methods to identify the database role.
+     * Required. The name of the database role. Values are of the form `projects//instances//databases//databaseRoles/ `, where `` is as specified in the `CREATE ROLE` DDL statement.
      */
     name?: string | null;
   }
