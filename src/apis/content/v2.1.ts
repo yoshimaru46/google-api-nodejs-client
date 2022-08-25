@@ -233,7 +233,7 @@ export namespace content_v2_1 {
      */
     googleMyBusinessLink?: Schema$AccountGoogleMyBusinessLink;
     /**
-     * Required for update. Merchant Center account ID.
+     * Required. 64-bit Merchant Center account ID.
      */
     id?: string | null;
     /**
