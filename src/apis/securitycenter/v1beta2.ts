@@ -552,7 +552,7 @@ export namespace securitycenter_v1beta2 {
      */
     connections?: Schema$Connection[];
     /**
-     * Output only. Map containing the point of contacts for the given finding. The key represents the type of contact, while the value contains a list of all the contacts that pertain. Please refer to: https://cloud.google.com/resource-manager/docs/managing-notification-contacts#notification-categories { "security": { "contacts": [ { "email": "person1@company.com" \}, { "email": "person2@company.com" \} ] \}
+     * Output only. Map containing the point of contacts for the given finding. The key represents the type of contact, while the value contains a list of all the contacts that pertain. Please refer to: https://cloud.google.com/resource-manager/docs/managing-notification-contacts#notification-categories { "security": { "contacts": [ { "email": "person1@company.com" \}, { "email": "person2@company.com" \} ] \} \}
      */
     contacts?: {[key: string]: Schema$ContactDetails} | null;
     /**
@@ -1060,7 +1060,7 @@ export namespace securitycenter_v1beta2 {
      */
     signatures?: Schema$ProcessSignature[];
     /**
-     * The list of URIs associated to the Findings
+     * The list of URIs associated to the Findings.
      */
     uris?: string[] | null;
   }
