@@ -4,6 +4,40 @@
 
 [1]: https://www.npmjs.com/package/googleapis?activeTab=versions
 
+## [108.0.0](https://github.com/googleapis/google-api-nodejs-client/compare/googleapis-v107.0.0...googleapis-v108.0.0) (2022-08-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* **sqladmin:** This release has breaking changes.
+* **gkehub:** This release has breaking changes.
+* **documentai:** This release has breaking changes.
+* **cloudsearch:** This release has breaking changes.
+
+### Features
+
+* **cloudsearch:** update the API ([c19ef78](https://github.com/googleapis/google-api-nodejs-client/commit/c19ef78faf7fe7c59a4c0dd0e4079e6083ef41cd))
+* **documentai:** update the API ([36ccfc0](https://github.com/googleapis/google-api-nodejs-client/commit/36ccfc083a7b74251aac925f701a9b5694b61e06))
+* **firebase:** update the API ([91eb643](https://github.com/googleapis/google-api-nodejs-client/commit/91eb643ad26d0345df425be4215ffb331cf9c0f9))
+* **gkehub:** update the API ([5dc946e](https://github.com/googleapis/google-api-nodejs-client/commit/5dc946eadd0bbc5b052adc54c9fe2637ccb5620c))
+* **iap:** update the API ([2f10ed3](https://github.com/googleapis/google-api-nodejs-client/commit/2f10ed3287430d38f2d61620c67315e3aaf6e5f5))
+* **managedidentities:** update the API ([2cbdef5](https://github.com/googleapis/google-api-nodejs-client/commit/2cbdef535551f91484743d2bd51f5daa6141f84a))
+* regenerate index files ([f841e13](https://github.com/googleapis/google-api-nodejs-client/commit/f841e1353cb8868a4503662a5fb2136b1b2b06b0))
+* **sqladmin:** update the API ([25af112](https://github.com/googleapis/google-api-nodejs-client/commit/25af112f8450b69e8511f47a5c63586e4d54432a))
+* **transcoder:** update the API ([e4ec36f](https://github.com/googleapis/google-api-nodejs-client/commit/e4ec36f1adbd7e5cf3db52c767c722c581cdf1ba))
+
+
+### Bug Fixes
+
+* add hashes to requirements.txt ([#1544](https://github.com/googleapis/google-api-nodejs-client/issues/1544)) ([#3053](https://github.com/googleapis/google-api-nodejs-client/issues/3053)) ([13d039d](https://github.com/googleapis/google-api-nodejs-client/commit/13d039d841a7788c35e953c8b345331adb0b3d4d))
+* **appengine:** update the API ([bb202c4](https://github.com/googleapis/google-api-nodejs-client/commit/bb202c4941d9f689cc0d0722ed4ec31b2da480ce))
+* **bigtableadmin:** update the API ([2e3f103](https://github.com/googleapis/google-api-nodejs-client/commit/2e3f103e64fae7eaf5c2f466be5e2c37016bda3e))
+* **cloudbilling:** update the API ([52fad78](https://github.com/googleapis/google-api-nodejs-client/commit/52fad78d7804182febe4b881ba8667cd889e476f))
+* **dataplex:** update the API ([4e56f02](https://github.com/googleapis/google-api-nodejs-client/commit/4e56f028edac702a7bc894d283413a9d4fa1584a))
+* **networkservices:** update the API ([4d4e3f7](https://github.com/googleapis/google-api-nodejs-client/commit/4d4e3f72488d1ff7e24fd9ee46a93b2f6611ab37))
+* **policysimulator:** update the API ([daec4de](https://github.com/googleapis/google-api-nodejs-client/commit/daec4de46464f5b8d8d6a87405c48aee7b5925c5))
+* **vmmigration:** update the API ([f6f2c75](https://github.com/googleapis/google-api-nodejs-client/commit/f6f2c75c44996f82dde52425635c91bffbddbe8c))
+
 ## [107.0.0](https://github.com/googleapis/google-api-nodejs-client/compare/googleapis-v106.0.0...googleapis-v107.0.0) (2022-08-20)
 
 

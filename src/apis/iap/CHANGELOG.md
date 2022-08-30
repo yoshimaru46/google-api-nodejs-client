@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.2.0](https://github.com/googleapis/google-api-nodejs-client/compare/iap-v3.1.0...iap-v3.2.0) (2022-08-30)
+
+
+### Features
+
+* **iap:** update the API ([2f10ed3](https://github.com/googleapis/google-api-nodejs-client/commit/2f10ed3287430d38f2d61620c67315e3aaf6e5f5))
+* regenerate index files ([f841e13](https://github.com/googleapis/google-api-nodejs-client/commit/f841e1353cb8868a4503662a5fb2136b1b2b06b0))
+
 ## [3.1.0](https://github.com/googleapis/google-api-nodejs-client/compare/iap-v3.0.1...iap-v3.1.0) (2022-08-19)
 
 
